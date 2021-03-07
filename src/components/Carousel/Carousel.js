@@ -213,9 +213,9 @@ class Carousel extends Component {
                             <div className="panel"
                                 key={index}
                                 ref={this.panel}
-                                onMouseDown={(e) => this.gestureStart(e)}
-                                onMouseMove={(e) => this.gestureMove(e)}
-                                onMouseUp={(e) => this.gestureEnd(e)}>
+                                onPointerDown={(e) => this.gestureStart(e)}
+                                onPointerMove={(e) => this.gestureMove(e)}
+                                onPointerUp={(e) => this.gestureEnd(e)}>
                                 {el}
                             </div>
                         )
