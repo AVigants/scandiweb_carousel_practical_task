@@ -3,7 +3,9 @@ This is a Carousel component made in react without the use of 'create-react-app'
 
 # How to initialize the project:
 Clone this repo
+
 in the terminal, go to the repo and 'npm i' the dependencies
+
 'npm run start'
 
 # How to use the component:
